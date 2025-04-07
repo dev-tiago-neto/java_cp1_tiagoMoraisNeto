@@ -2,10 +2,10 @@ package br.com.locadora;
 
 public class app {
     public static void main(String[] args) {
-        veiculo veiculoSelecionado = new veiculo("Fiat Uno", 100.0);
+        veiculo veiculoSelecionado = new veiculo("BMW", 100.0);
 
-        int quantidadeDias = 10;
-        int diasDeAtraso = 2;
+        int quantidadeDias = 8;
+        int diasDeAtraso = 3;
 
         double valorTotal = veiculoSelecionado.calcularCusto(quantidadeDias);
         double valorMulta = veiculoSelecionado.calcularMulta(diasDeAtraso);
