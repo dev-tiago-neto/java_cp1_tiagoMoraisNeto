@@ -2,7 +2,7 @@ package br.com.locadora;
 
 public class app {
     public static void main(String[] args) {
-        veiculo veiculoSelecionado = new veiculo("BMW", 250.0);
+        veiculo veiculoSelecionado = new veiculo("BMW X6", 250.0);
 
         int quantidadeDias = 8;
         int diasDeAtraso = 3;
